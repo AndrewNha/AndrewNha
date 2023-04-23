@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>Website LARA - IFPB 🤖</title>
+</head>
+<header>
+    <nav class="header">
+        <div class="logo">
+            <a href="/site - LARA/index.html"> LARA </a>
+        </div>
+        <ul>
+            <li> <a href="../index.html"> Início </a> </li>
+            <li> <a href="./infra.html"> Infraestrutura </a> </li>
+            <li> <a href="/java-noticias/noticias.html"> Notícias </a> </li>
+            <li id="sublinhado"> <a href="./contato.html"> Contato </a> </li>
+        </ul>
+    </nav>
+</header>   
+    <body>
+    <section class="contatos">
+        <br>
+        <br>    
+        <br>
+        <h1 class="titulo">NOS ENVIE UMA</h1>
+        <h1 id="mensagem">MENSAGEM!</h1>
+        <form id="formulario" action="https://api.sheetmonkey.io/form/3Fc3Fv5eT8H5hhsKujKRmK" method="post">
+            <div class="form-group">
+                <label for="formGroupExampleInput"><b>Nome</b></label>
+                <input type="text" class="form-control" id="formGroupExampleInput" nome=nome placeholder="Seu nome">
+              </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1"><b>Endereço de email</b></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" nome="email" aria-describedby="emailHelp" placeholder="Seu email">
+              <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+            </div>
+            <div class="form-group">
+                <label for="formInput"><b>Mensagem</b></label>
+                <input type="text" class="form-control" id="formInput" nome=mensagem placeholder="Digite uma breve mensagem">
+              </div>
+            <div class="centro">
+            <br>
+            <br>
+            <button type="submit" class="btn btn-success" id="botao">
+                Enviar
+            </button>
+                </div>
+          </form>
+    </section>
+    <br><br>
+    <footer class="footer">
+        <div class="wrap">
+            LARA - Laboratório de Realidade Virtual e Aumentada ©
+        </div>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="../javascript/main.js" type="module"></script>
+</body>
+</html>

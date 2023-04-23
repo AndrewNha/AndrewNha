@@ -1,0 +1,22 @@
+{
+  "noticias": [
+      {
+          "name": "A nova remessa de óculos acaba de chegar!",
+          "img": "../site - LARA/paginas/imagens/visualstudio.png",
+          "descricao": "A nova remessa dos novos óculos de realidade aumentada acaba de chegar no laboratório. O pedido por novos óculos havia sido feito à 2 meses",
+          "id": 1
+      },
+      {
+          "name": "Nova postagem na página do projeto Visual3dVr!",
+          "img": "../site - LARA/paginas/imagens/instagram.jpg",
+          "descricao": "A apresentação está incrivel, confira clicando <a href='https://www.instagram.com/visual3d.vr/'>aqui!</a>",
+          "id": 2
+      },
+      {
+        "name": "Nova oficina do projeto Visual3dVr!",
+        "img": "../site - LARA/paginas/imagens/oficina.png",
+        "descricao": "Clique <a href='https://www.instagram.com/p/Ceg4yxqltjr/'>aqui</a> para mais informações",
+        "id": 2
+    }
+  ]
+}
